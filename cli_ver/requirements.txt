@@ -1,0 +1,5 @@
+textual
+duckdb
+pandas
+numpy
+hdbscan

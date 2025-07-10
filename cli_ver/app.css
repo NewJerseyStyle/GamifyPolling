@@ -1,0 +1,78 @@
+/* app.css */
+Screen {
+    background: #1d2021;
+    color: #ebdbb2;
+    overflow: hidden; /* Prevent screen-level scrollbars */
+}
+
+/* --- Title & Create Screens --- */
+#title_form, #create_form {
+    padding: 2 4;
+    align: center middle;
+    border: heavy #458588;
+    background: #282828;
+    width: 100%;
+    height: 100%;
+}
+
+#title_form Input {
+    margin: 1;
+}
+
+#title_form Label {
+    margin: 2;
+}
+
+#start {
+    margin-top: 2;
+}
+
+#create_new {
+    dock: bottom;
+}
+
+#create_form Input, #create_form TextArea {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#create_form #seed_comments {
+    height: 10;
+}
+
+#create_form Label {
+    text-wrap: wrap;
+}
+
+#cancel_create {
+    dock: right;
+}
+
+/* --- Game Screen --- */
+#game_screen_container {
+    layout: vertical;
+    overflow: hidden;
+}
+
+#narrative_log {
+    height: 1fr; /* Take up remaining space */
+    border: round #689d6a;
+    margin-bottom: 1;
+    background: #282828;
+    padding: 1;
+}
+
+#command_input {
+    dock: bottom;
+    height: 3;
+    border-top: wide #458588;
+}
+
+.hidden {
+    display: none;
+}
+
+Footer {
+    background: #458588;
+    color: #282828;
+}

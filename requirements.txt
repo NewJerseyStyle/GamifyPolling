@@ -1,0 +1,7 @@
+pandas
+numpy
+duckdb
+streamlit
+hdbscan
+textual
+textual-serve
